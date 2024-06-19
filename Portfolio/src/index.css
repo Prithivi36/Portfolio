@@ -46,14 +46,51 @@
   }
   .title{
     background: linear-gradient(74deg,
-    rgb(66,133,244),rgb(155,114,203),rgb(155,114,203),rgb(217,101,112),rgb(217,101,112));
+    rgb(66,133,244),rgb(155,114,203),rgb(217,101,112),rgb(217,101,112));
     color: transparent;
+    font-size: 250%;
     background-clip: text;  
+    font-family: Salsa;
   }
  .about{
     text-align: justify;
-    max-width: 600px;
+    max-width: 700px;
  }
  .info{
-    max-width: 450px;
+    max-width: 350px;
  }
+.nav-elements:hover{
+  color: white;
+  background-color: rgb(58, 58, 58);
+}
+.nav-elements{
+  color: rgb(143, 139, 139);
+  transition: all .2s;
+  cursor: pointer;
+  
+}
+.nav-elements-active{
+  color: transparent;
+  background: linear-gradient(74deg,
+  rgb(118, 39, 155),rgb(155,114,203),rgb(223, 80, 241),rgb(255, 0, 140));
+  background-clip: text;
+  cursor: pointer;
+  
+}
+.moreInfo{
+  max-height: 0;
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+}
+.moreInfo-active{
+  max-height: 1000px;
+}
+.moreinfoList:hover{
+  font-size: large;
+  font-weight: bolder;
+}
+.moreinfoList{
+  text-decoration: none;
+  font-size: medium;
+  transition: all .2s ease-in-out;
+}
