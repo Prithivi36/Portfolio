@@ -1,5 +1,5 @@
 import React from 'react'
-import Prithivi from './Prithivi P prof.jpg'
+import Prithivi from '../Images/Prithivi P prof.jpg'
 import MoreInfo from './MoreInfo'
 
 

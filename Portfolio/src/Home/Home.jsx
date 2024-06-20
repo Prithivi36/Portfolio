@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
-import SideBar from './SideBar'
 import Info from './Info'
 
 

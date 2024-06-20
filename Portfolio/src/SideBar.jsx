@@ -1,6 +1,4 @@
 import React from 'react'
-import Info from './Info'
-
 function SideBar(props) {
   const content=["Home","Experiences","Contact","Skills"]
   const [active,setActive]=React.useState("Home")

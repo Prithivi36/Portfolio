@@ -80,7 +80,7 @@
 .moreInfo{
   max-height: 0;
   overflow: hidden;
-  transition: all .5s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 .moreInfo-active{
   max-height: 1000px;
