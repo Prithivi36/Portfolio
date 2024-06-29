@@ -4,7 +4,9 @@ function SideBar(props) {
   const [active,setActive]=React.useState("Home")
     const elements=content.map((i,j)=>{
         return(
-            <p key={j} onClick={()=>setActive(i)} className={`${active===i?'nav-elements-active':'nav-elements'} rounded-2 py-1 px-2`}>{i}</p>
+          <>
+          <p  key={j} onClick={()=>setActive(i)} className={`${active===i?'nav-elements-active':'nav-elements'} rounded-2 sidebar-elements py-1 px-2`}>{i}</p>
+          </>
         )
     })
   return (

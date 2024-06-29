@@ -24,6 +24,9 @@
     background-color: rgb(65, 70, 75);
     color: white;
   }
+  .text-dark-light{
+    color:rgb(204, 204, 204);
+  }
   .btn-dark-less{
     background-color: rgb(65, 70, 75);
     color: white;
@@ -55,6 +58,8 @@
  .about{
     text-align: justify;
     max-width: 700px;
+    font-size: large;
+    color: rgb(162, 165, 168);
  }
  .info{
     max-width: 350px;
@@ -94,3 +99,15 @@
   font-size: medium;
   transition: all .2s ease-in-out;
 }
+.sidebar-elements{
+  font-size: 20px;
+}
+
+.snow{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+

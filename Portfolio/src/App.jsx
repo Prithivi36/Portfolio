@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Home from './Home/Home'
 import Navbar from './Navbar'
+import Timeline from './Experience/Timeline'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
     <Navbar/>
     <Home />
+    <Timeline />
     </>
   )
 }
