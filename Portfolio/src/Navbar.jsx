@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <>
         <div className='bg-black d-flex align-items-center justify-content-end p-4 navigation'>
-            <button onClick={()=>setSideBar(!sideBar)} className="btn d-block d-md-none btn-dark-less">
+            <button onClick={()=>setSideBar(!sideBar)} className="btn d-block d-md-none btn-dark">
                 <i className="bi bi-layout-sidebar fw-bolder"></i>
             </button>
             <div className="elements align-items-center d-none d-md-flex px-3 gap-3">
