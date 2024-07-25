@@ -7,7 +7,7 @@ function Home() {
     <div className="snow">
       <Snowfall snowflakeCount={50}  color='gray' />
     </div>
-    <div style={{ minHeight: '100vh', position: 'relative' }} className="d-lg-flex justify-content-around container gap-5 align-items-center py-5 bg-none d-block">
+    <div style={{ minHeight: '100vh', position: 'relative' }} className="d-md-flex justify-content-lg-center gap-5 justify-content-around p-2  align-items-center py-5 bg-none d-block">
       <div className="text-center d-flex justify-content-center">
         <Info />
       </div>

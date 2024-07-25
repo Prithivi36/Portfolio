@@ -110,4 +110,9 @@
   left: 0;
   right: 0;
 }
-
+.bg-trans{
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3px);
+    border:solid rgb(162, 165, 168,0.1);
+    box-shadow:0 0 20000px rgba(255, 255, 255, 0.1);
+}
