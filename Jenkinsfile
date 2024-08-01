@@ -4,25 +4,17 @@ pipeline{
             label 'master'
         }
     }
-    
+    tools{
+        nodejs 'node'
+    }
     stages{
-        stage("Configure Git Safe Directory") {
-            steps {
-                sh 'git config --global --add safe.directory /home/ubuntu/Portfolio'
-            }
-        }
-        stage("git"){
-            steps{
-                sh'''
-                    cd /home/ubuntu/Portfolio
-                    git pull origin main
-                '''
-            }
-        }
+        
+        
         stage("build"){
             steps{
                 sh'''
-                 cd /home/ubuntu/Portfolio/Portfolio
+                 cd Portfolio
+                 npm install
                  npm run build
                 '''
             }
@@ -39,7 +31,7 @@ pipeline{
         stage("deploy"){
             steps{
                 sh'''
-                    cd /home/ubuntu/Portfolio/Portfolio
+                    cd Portfolio
                     sudo cp -r dist/* /var/www/html/
                 '''
             }
