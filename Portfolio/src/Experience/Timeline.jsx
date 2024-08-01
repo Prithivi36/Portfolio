@@ -5,17 +5,9 @@ function Timeline() {
   return (
     <>
     <h3 className='text-center text-light'>Experience</h3>
-    <div  className='text-light d-flex justify-content-center align-items-center'>
-      {/* Left */}
       <div className="">
+        <h4 className='ms-5 text-decoration-underline text-light mt-5'>July 2024 - Present </h4>
       </div>
-      {/* TimeLine */}
-      <div style={{minHeight:'100vh' ,width: '1px'}} className="bg-light"></div>
-      {/* Right */}
-      <div className="">
-
-      </div>
-    </div>
     </>
   )
 }
