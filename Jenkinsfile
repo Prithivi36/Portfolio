@@ -6,6 +6,11 @@ pipeline{
     }
     
     stages{
+        stage("Configure Git Safe Directory") {
+            steps {
+                sh 'git config --global --add safe.directory /home/ubuntu/Portfolio'
+            }
+        }
         stage("git"){
             steps{
                 sh'''
