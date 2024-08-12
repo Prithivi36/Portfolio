@@ -6,7 +6,7 @@ function Timeline() {
     <>
     <h3 className='text-center text-light'>Experience</h3>
       <div className="">
-        <h4 className='ms-5 text-decoration-underline text-light mt-5'>Janauary 2024 - Present </h4>
+        <h4 className='ms-5 text-decoration-underline text-light mt-5'>Jenkins Test </h4>
       </div>
     </>
   )
