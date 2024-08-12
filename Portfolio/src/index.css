@@ -48,18 +48,31 @@
     background-clip: text;  
   }
   .title{
-    background: linear-gradient(74deg,
-    rgb(66,133,244),rgb(155,114,203),rgb(217,101,112),rgb(217,101,112));
-    color: transparent;
+    /* background: linear-gradient(74deg,
+    rgb(66,133,244),rgb(155,114,203),rgb(217,101,112),rgb(217,101,112)); */
+    /* color: rgb(154, 102, 212); */
     font-size: 250%;
-    background-clip: text;  
+    /* background-clip: text;   */
     font-family: Salsa;
+  }
+  .text-lighter{
+    color: rgb(211, 207, 207);
+  }
+  .bg-indigo{
+    background-color: rgb(154, 102, 212);
+  }
+  .bg-indigo:hover{
+    background-color: rgb(178, 144, 218);
+    border: none;
+  }
+  .text-indigo{
+    color: rgb(154, 102, 212);
   }
  .about{
     text-align: justify;
     max-width: 700px;
     font-size: large;
-    color: rgb(162, 165, 168);
+    color: rgb(189, 191, 194);
  }
  .info{
     max-width: 350px;
@@ -69,7 +82,9 @@
   background-color: rgb(58, 58, 58);
 }
 .nav-elements{
-  color: rgb(143, 139, 139);
+  color: rgb(185, 184, 184);
+  font-size: large;
+  font-weight: medium;
   transition: all .2s;
   cursor: pointer;
   
@@ -79,6 +94,8 @@
   background: linear-gradient(74deg,
   rgb(118, 39, 155),rgb(155,114,203),rgb(223, 80, 241),rgb(255, 0, 140));
   background-clip: text;
+  font-size: large;
+  font-weight: medium;
   cursor: pointer;
   
 }
@@ -116,3 +133,36 @@
     border:solid rgb(162, 165, 168,0.1);
     box-shadow:0 0 20000px rgba(255, 255, 255, 0.1);
 }
+.profiler {
+  max-width: 60vw;
+  max-height: 70vh;
+  overflow-x: hidden;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .profiler {
+    max-height: 50vh;
+  }
+}
+
+@media (max-width: 430px) {
+  .profiler {
+    max-height: 35vh;
+    max-width: 50vw;
+  }
+  .title{
+    font-size: 180%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1080px) {
+  .profiler {
+    max-height: 70vh;
+    max-width: 40vw;
+  }
+  .title{
+    font-size: 200%;
+  }
+}
+
