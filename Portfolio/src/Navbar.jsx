@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <>
-        <div className='bg-none d-flex align-items-center justify-content-end p-4 navigation'>
+        <div className='bg-black d-flex align-items-center justify-content-end p-2 navigation'>
             <button onClick={()=>setSideBar(!sideBar)} className="btn d-block d-md-none ">
                 <i className="bi bi-list text-indigo  fw-bolder"></i>
             </button>
