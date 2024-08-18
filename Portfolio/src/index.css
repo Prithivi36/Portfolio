@@ -1,6 +1,13 @@
+body{
+  cursor: url("./Images/CustomCursor.svg"),auto;
+}
+i{
+  cursor: pointer;
+}
+
 .sidebar {
     position: fixed;
-    z-index: 9;
+    z-index: 12;
     width: 0px;
     opacity: 0;
     top: 0;
