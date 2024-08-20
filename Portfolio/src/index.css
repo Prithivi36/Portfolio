@@ -2,7 +2,10 @@ body{
   cursor: url("./Images/CustomCursor.svg"),auto;
 }
 i{
-  cursor: pointer;
+  cursor: url("./Images/CustomDiamond.png"),auto;
+}
+button{
+  cursor: url("./Images/CustomDiamond.png"),auto !important;
 }
 
 .sidebar {
