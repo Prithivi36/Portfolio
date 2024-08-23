@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Home from './Home/Home'
 import Navbar from './Navbar'
-import Timeline from './Experience/Timeline'
+import ProjectsDetails from './Projects/ProjectsDetails'
 
 
 function App() {
@@ -10,7 +10,9 @@ function App() {
     <>
     <Navbar/>
     <Home />
-    <Timeline />
+    <div className="border-bottom"></div>
+    <ProjectsDetails />
+    <div className="border-bottom"></div>
     </>
   )
 }
