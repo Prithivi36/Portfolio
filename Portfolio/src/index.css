@@ -203,10 +203,34 @@ button{
   height: 20px;
   border-radius: 50%;
 }
+@media (max-width: 768px) {
+  .point{
+    position: absolute;
+    top: -10px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+  }
+  .dot{
+    background-color: #D087E3;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+}
 .project-img{
   object-fit: contain;
 }
 .proj-desc{
   text-align: justify;
   font-size: larger;
+  color: rgb(189, 191, 194);
+}
+
+@media (max-width: 768px) {
+  .proj-desc{
+    font-size: medium;
+  }
 }
