@@ -1,12 +1,12 @@
 import React from 'react'
-import java from '../Images/Skills/java.png'
-import spring from '../Images/Skills/springboot.png'
-import aws from '../Images/Skills/aws.png'
-import react from '../Images/Skills/react.png'
-import docker from '../Images/Skills/docker.png'
-import jenkins from '../Images/Skills/jenkins.png'
-import sql from '../Images/Skills/mysql.png'
-import mongo from '../Images/Skills/mongodb.png'
+import java from '../Images/Skills/Java.png'
+import spring from '../Images/Skills/SpringBoot.png'
+import aws from '../Images/Skills/AWS.png'
+import react from '../Images/Skills/React.png'
+import docker from '../Images/Skills/Docker.png'
+import jenkins from '../Images/Skills/Jenkins.png'
+import sql from '../Images/Skills/MySql.png'
+import mongo from '../Images/Skills/MongoDb.png'
 
 
 function Skills() {
