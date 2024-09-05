@@ -1,4 +1,5 @@
 import Image from './Image';
+import resume from './PrithiviPSoftwareDeveloper.pdf'
 
 function Home() {
   return (
@@ -21,12 +22,16 @@ function Home() {
           From conceptualization to deployment, I have the skills and dedication to bring your ideas to life.
         </p>
         <div className="d-flex gap-3">
-          <button className='btn d-none d-md-block bg-indigo border-0 btn-primary rounded-3'>Download CV</button>
+          <a href={resume} download="Prithivi_P Software Developer.pdf" className='btn d-none d-md-block bg-indigo border-0 btn-primary rounded-3'>Download CV</a>
         </div>
-          <div className="social d-flex gap-3 justify-content-end text-indigo">
-            <i className="bi bi-linkedin fs-3"></i>
-            <i className="bi bi-whatsapp fs-3"></i>
+          <div className="social text-indigo d-flex gap-3 justify-content-end text-indigo">
+            <a className='text-indigo' target='_blank' href="https://wa.me/+918220812131"><i className="bi bi-whatsapp fs-3"></i></a>
+            <a className='text-indigo' target='_blank' href="mailto:prithivi.work@gmail.com">
             <i className="bi bi-mailbox fs-3"></i>
+            </a>
+            <a className='text-indigo' target='_blank' href="https://www.linkedin.com/in/prithivi-p-6961a2285/">
+            <i className="bi bi-linkedin fs-3"></i>
+            </a>
           </div>
       </div>
     </div>
