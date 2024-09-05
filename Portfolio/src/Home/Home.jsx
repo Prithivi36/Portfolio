@@ -3,7 +3,7 @@ import Image from './Image';
 function Home() {
   return (
     <>
-    <div style={{ minHeight: '100vh' }} className="d-md-flex mt-5 justify-content-lg-between container-lg gap-5 justify-content-around p-2  align-items-center py-5 bg-none d-block">
+    <div id='Home' style={{ minHeight: '100vh' }} className="d-md-flex mt-5 justify-content-lg-between container-lg gap-5 justify-content-around p-2  align-items-center py-5 bg-none d-block">
       <div className="text-start d-flex">
         <Image />
         <div style={{position: "relative"}} className="p-3">

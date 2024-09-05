@@ -1,11 +1,11 @@
 import React from 'react'
 function SideBar(props) {
-  const content=["Home","Experiences","Contact","Skills"]
+  const content=["Home","Experience","Contact","Skills"]
   const [active,setActive]=React.useState("Home")
     const elements=content.map((i,j)=>{
         return(
           <>
-          <p  key={j} onClick={()=>setActive(i)} className={`${active===i?'nav-elements-active':'nav-elements'} rounded-2 sidebar-elements py-1 px-2`}>{i}</p>
+          <a href={'#'+i}  key={j} onClick={()=>{setActive(i)}} className={`${active===i?'nav-elements-active':'nav-elements'} rounded-2 sidebar-elements text-decoration-none py-1 px-2`}>{i}</a>
           </>
         )
     })

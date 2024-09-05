@@ -6,7 +6,7 @@ import {projects} from './Projects.js'
 function ProjectsDetails() {
   return (
     <>
-    <div>
+    <div id='Experience'>
         <h1 className=' ms-4  text-indigo fw-bolder title text-center mt-5'>Projects</h1>
     </div>
     <div className="my-5">
