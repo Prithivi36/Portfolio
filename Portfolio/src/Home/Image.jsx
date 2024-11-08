@@ -1,5 +1,5 @@
 import React from 'react'
-import Prithivi from './PortfolioImg.png'
+import Prithivi from './Prithivi.jpg'
 
 function Image() {
   return (

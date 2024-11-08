@@ -17,7 +17,7 @@ function Home() {
           <h1 className='fw-bolder m-0 text-end title text-indigo'><span className='text-lighter'>a </span>Software Developer</h1>
         </div>
         <p className='about mt-3 mt-sm-0'>
-          &emsp;As a seasoned Software Engineer proficient in both front-end
+          &emsp;As a seasoned Software Developer proficient in both front-end
           and back-end development, along with expertise in AWS services, I specialize in delivering end-to-end web solutions.
           From conceptualization to deployment, I have the skills and dedication to bring your ideas to life.
         </p>
