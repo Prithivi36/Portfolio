@@ -8,7 +8,7 @@ function Home() {
       <div className="text-start d-flex">
         <Image />
         <div style={{position: "relative"}} className="p-3">
-          <button style={{position:"absolute" , bottom:0}} className='btn d-md-none bg-indigo border-0 text-nowrap btn-primary rounded-3'>Download CV</button>
+          <a href={resume} style={{position:"absolute" , bottom:0}} className='btn d-md-none bg-indigo border-0 text-nowrap btn-primary rounded-3'>Download CV</a>
         </div>
       </div>
       <div className="text-light d-sm-flex flex-column gap-5 my-5 px-2">
