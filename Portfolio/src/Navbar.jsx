@@ -17,6 +17,7 @@ function Navbar() {
             <button onClick={()=>setSideBar(!sideBar)} className="btn d-block d-md-none ">
                 <i className="bi bi-list text-indigo nav-togg fw-bolder"></i>
             </button>
+            <h1 className="text-light">In Progress...</h1>
             <div className="elements align-items-center d-none d-md-flex px-3 gap-3">
                 {...elements}
             </div>
