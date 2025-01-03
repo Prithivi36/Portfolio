@@ -6,7 +6,7 @@ import Skills from './Skills/Skills'
 
 
 function App() {
-
+  alert("Under Development Haven't Completed, Just use to download Resume :)")
   return (
     <>
     <Navbar/>
